@@ -8,6 +8,8 @@ RELEASE_EXEC  = hello
 DEBUG_EXEC    = hello-dbg
 #SOURCE        =
 
+hello: hello.cpp
+
 all: debug release
 
 debug: $(DEBUG_EXEC)
